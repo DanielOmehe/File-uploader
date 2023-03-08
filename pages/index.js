@@ -1,13 +1,13 @@
-import DragDropFile from "./drag-n-drop-file-uploader"
-import App from "./react-drag-n-drop"
+// import DragDropFile from "./drag-n-drop-file-uploader"
+// // import App from "./react-drag-n-drop"
+import FileUploader from "../components/uploader"
 
-const FileUploader =()=>{
+const App =()=>{
     return (
         <>
-            <DragDropFile />
-            <App />
+            <FileUploader />
         </>
     )
 }
 
-export default FileUploader
+export default App
